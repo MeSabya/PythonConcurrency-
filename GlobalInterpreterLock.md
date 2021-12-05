@@ -23,6 +23,11 @@ Thus, a compromise was made to have a single lock that provides exclusive access
 
 ![image](https://user-images.githubusercontent.com/33947539/144748241-f2a208c3-0c27-46b5-a589-3a899d4dd395.png)
 
+## Removing GIL
+One may wonder why the GIL can't be removed from Python because of the limitations it imposes on CPU-bound programs. 
+Attempts at removing GIL resulted in breaking C extensions and degrading the performance of single and multithreaded I/O bound programs. 
+Therefore, so far GIL hasn't been removed from Python.
+
 
 
 
