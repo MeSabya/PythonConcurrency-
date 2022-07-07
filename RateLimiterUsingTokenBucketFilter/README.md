@@ -26,3 +26,4 @@ We'll create a factory class which produces token bucket filter objects and also
 
 Implementation done in : **RateLimitingUsingTokenBucketFilterUsingFactory.py** 
 
+![image](https://user-images.githubusercontent.com/33947539/177816666-4fedefc6-a7b8-49ce-891e-7f629e5ff98a.png)
