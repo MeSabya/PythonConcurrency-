@@ -283,3 +283,19 @@ asyncio.run(main())
 ```
 
 </details>
+
+## What are some important concepts in asyncio?
+
+<details>
+
+asyncio.create_task:
+
+asyncio.gather
+
+asyncio.Queue + asyncio.Semaphore
+
+asyncio.wait_for
+
+
+</details>
+
